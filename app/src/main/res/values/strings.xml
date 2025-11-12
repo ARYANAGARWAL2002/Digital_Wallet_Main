@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">digital_wallet_proj</string>
+    <string name="scan_cancelled">Scan cancelled</string>
+    <string name="error_parsing_qr">Error parsing QR data</string>
+    <string name="qr_code_data">QR Code Data</string>
+    <string name="card_number_hint">Card Number (16 digits)</string>
+    <string name="expiry_date_hint">Expiry Date (MM/YY)</string>
+    <string-array name="category_filter_options">
+        <item>All Categories</item>
+        <item>Personal</item>
+        <item>Work</item>
+        <item>Education</item>
+        <item>Travel</item>
+        <item>Shopping</item>
+        <item>Health</item>
+        <item>Finance</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="card_types">
+        <item>ID Card</item>
+        <item>Membership Card</item>
+        <item>Gift Card</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>Insurance Card</item>
+        <item>Library Card</item>
+        <item>Gym Membership</item>
+
+        <item>Other</item>
+    </string-array>
+
+    <!-- Categories Array -->
+    <string-array name="categories">
+        <item>Personal</item>
+        <item>Work</item>
+        <item>Education</item>
+        <item>Health</item>
+        <item>Travel</item>
+        <item>Shopping</item>
+        <item>Entertainment</item>
+        <item>Finance</item>
+        <item>Other</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedTextField" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.BottomNavigationView" parent="">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialComponents.FloatingActionButton" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/black</item> <!-- Text is clear and readable -->
+        <item name="android:textSize">16sp</item> <!-- Large text size -->
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.BottomNavigationView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>
